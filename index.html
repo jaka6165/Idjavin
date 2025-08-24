@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>IDJavIn - Nonton Video JAV Sub Indo Terbaru</title>
+    <meta name="description" content="IDJavIn adalah situs untuk nonton dan streaming video JAV sub Indo terbaru dan terlengkap. Temukan koleksi video favorit Anda dengan kualitas terbaik.">
+    <meta name="keywords" content="jav sub indo, nonton jav, streaming jav, idjavin, jav terbaru, video jav">
+    <link rel="canonical" href="https://contohdomainanda.com/">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "IDJavIn - Koleksi Video JAV Sub Indo",
+      "description": "Koleksi video JAV dengan subtitle Indonesia terbaru dan terlengkap di IDJavIn.",
+      "url": "https://contohdomainanda.com/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "IDJavIn",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://contohdomainanda.com/logo.png" 
+        }
+      }
+    }
+    </script>
+
+    <!-- External Libraries & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Menghubungkan ke File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <!-- Header -->
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-pink-400">IDJavIn</h1>
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#" class="flex items-center space-x-1 hover:text-pink-400"><i class="ph ph-house"></i><span>Home</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-pink-400"><i class="ph ph-tags"></i><span>Tags</span></a>
+                <a href="#" class="flex items-center space-x-1 hover:text-pink-400"><i class="ph ph-star"></i><span>Actors</span></a>
+                <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-blue-600"><i class="ph ph-telegram-logo"></i><span>Join Telegram</span></a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white"><i class="ph ph-list text-2xl"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 px-4 pb-4">
+             <a href="#" class="block py-2 text-center hover:bg-gray-700 rounded-lg">Home</a>
+             <a href="#" class="block py-2 text-center hover:bg-gray-700 rounded-lg">Tags</a>
+             <a href="#" class="block py-2 text-center hover:bg-gray-700 rounded-lg">Actors</a>
+             <a href="#" class="block mt-2 text-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Join Telegram</a>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="container mx-auto px-4 py-6">
+        <!-- Judul Kategori -->
+        <div class="bg-gray-800 p-4 rounded-lg mb-6">
+            <div class="text-sm text-gray-400 mb-2"><a href="#" class="hover:text-pink-400">Jav</a> &gt; <span>Category: Jav Sub Indo</span></div>
+            <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-semibold text-white flex items-center"><i class="ph-fill ph-video mr-2 text-pink-400"></i>Kategori: Jav Sub Indo</h2>
+                <button class="text-white bg-gray-700 p-2 rounded-lg hover:bg-gray-600"><i class="ph ph-faders-horizontal text-xl"></i></button>
+            </div>
+        </div>
+
+        <!-- Galeri Video -->
+        <div id="video-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            <!-- Kartu video akan di-generate oleh JavaScript -->
+        </div>
+        <p id="empty-message" class="text-center text-gray-500 mt-8 hidden">Tidak ada video yang ditemukan.</p>
+
+        <!-- Paginasi (statis) -->
+        <div class="flex justify-center items-center space-x-2 mt-8">
+            <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-pink-500">&lt;</a>
+            <a href="#" class="px-4 py-2 bg-pink-500 text-white rounded-lg">1</a>
+            <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-pink-500">2</a>
+            <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-pink-500">3</a>
+            <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-pink-500">&gt;</a>
+        </div>
+    </main>
+
+    <!-- Tombol Kembali ke Atas -->
+    <button id="scrollToTopBtn" class="hidden fixed bottom-5 right-5 bg-pink-500 text-white p-3 rounded-full shadow-lg hover:bg-pink-600 transition-transform duration-300 transform hover:scale-110">
+        <i class="ph-fill ph-arrow-up text-xl"></i>
+    </button>
+    
+    <!-- Menghubungkan ke File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
