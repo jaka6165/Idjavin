@@ -1,0 +1,22 @@
+/* Mengatur font utama untuk seluruh halaman */
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Kustomisasi scrollbar agar sesuai dengan tema gelap */
+::-webkit-scrollbar { 
+    width: 8px; 
+}
+
+::-webkit-scrollbar-track { 
+    background: #1a202c; /* Warna latar belakang scrollbar */
+}
+
+::-webkit-scrollbar-thumb { 
+    background: #4a5568; /* Warna scrollbar */
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover { 
+    background: #718096; /* Warna scrollbar saat kursor di atasnya */
+}
